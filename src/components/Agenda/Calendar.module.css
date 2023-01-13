@@ -1,0 +1,124 @@
+.component{
+    background-color: #40173f;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.changeDate{
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: #d8c9bb;
+    cursor: pointer;
+}
+.button{
+    height: 30px;
+    margin-left: 25px;
+    background-color: #202020;
+    border: none;
+    color: #d8c9bb;
+    border-radius: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+.title{
+    color: #d8c9bb;
+    text-align: left;
+    margin-left: 5rem;
+    letter-spacing: 1px;
+    width: 250px;
+}
+.table{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 90vh;
+}
+.weekday{
+    color: #b3aca4;
+}
+.day{
+    background-color: white;
+    width: 10%;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+.dateValue{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3rem;
+}
+.today{
+    background-color: #ac1c1c;
+    width: 20px;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3rem;
+}
+.eventWrapper{
+    margin-bottom: -50px;
+}
+.eventBefore{
+    background-color: #981616;
+    color: white;
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.eventAfter{
+    background-color: #65cb69;
+    color: white;
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.eventCurrent{
+    background-color: #677cbd;
+    color: white;
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.drop{
+    background-color: rgba(0, 0, 0, 0.50);; 
+    position: absolute;  
+    width: 11.8%;
+    height: 135px;
+    margin-top: -4.2rem;
+    margin-left: -2px;
+    border-radius: 10px;
+    z-index: 2;
+    transition: 300ms;
+}
+.eventBefore:hover{
+    z-index: 2;
+    transition: 300ms;
+}
+.eventAfter:hover{
+    z-index: 2;
+    transition: 300ms;
+}
+.drop:hover{
+    z-index: 0;
+    transition: 300ms;
+}

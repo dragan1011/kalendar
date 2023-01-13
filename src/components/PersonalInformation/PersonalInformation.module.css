@@ -1,0 +1,10 @@
+.personal{
+    border: 1px solid black;
+    width: 100%;
+}
+.items{
+    margin-top: 25%;
+    color: #677cbd;
+    font-size: 50px;   
+    font-weight: 600;
+}

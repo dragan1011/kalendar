@@ -1,0 +1,168 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 20vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+  }
+  
+  .header {
+    background: #40173f;
+    padding: 1rem;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+  }
+
+  .button {
+    font: inherit;
+    border: 1px solid #40173f;
+    background: #40173f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    transition: 300ms;
+    margin-right: 10px;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #633062;
+    border-color: #633062;
+    transition: 300ms;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .close{
+    font: inherit;
+    border: 1px solid #ac1c1c;
+    background: #ac1c1c;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    transition: 300ms;
+  }
+
+  .close:hover,
+  .close:active {
+    background: #cc4d4d;
+    border-color: #cc4d4d;
+    transition: 300ms;
+  }
+  
+  .close:focus {
+    outline: none;
+  }
+  
+
+.modalWrapper{
+  text-align: left;
+}
+.smallWrapper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.label{
+  font-size: 1.1rem;
+}
+.input{
+  height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 95%;
+}
+.input:focus{
+  outline: none;
+}
+.select{
+  height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 80px;
+  margin-right: 5px;
+}
+
+.labelUpozorenja{
+  font-family: 'Poppins', sans-serif;
+  color: #e94d4d;
+}
+
+  @media (min-width: 768px) {
+    .modal {
+      left: calc(50% - 5rem);
+      width: 15rem;
+    }
+  }
+
+  .row{
+    display: flex;
+  }
+  .minus{
+    margin-top: 1.8rem;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+.labelResult{
+  font-weight: bold;
+  margin-left: 5px;
+}
+.infoWrapper{
+  display: flex;
+  margin-top: 15px;
+}
+.zones{
+display: flex;
+flex-direction: column;
+margin-left: 4.5rem;
+}
+.zone{
+cursor: pointer;
+padding: 3px;
+border-radius: 5px;
+width: fit-content;
+}
+.zone:hover{
+  background-color: #c5a2c5;
+}

@@ -1,0 +1,39 @@
+.show{
+    display: flex;
+}
+.menu{
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+}
+.position{
+    margin-top: 40%;
+    text-align: left;
+    margin-left: 15px;
+}
+.meni{
+    display: flex;
+    height: 20px;
+    align-items: center;   
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 35%;
+    transition: 0.3s;
+}
+.meni:hover{
+    background-color: #d8c9bb;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.naslov{
+    color:#354284;
+}
+.item{
+    margin-left: 5px;
+}
+.logout{
+    margin-left: 25px;
+    margin-top: 45vh;
+}
